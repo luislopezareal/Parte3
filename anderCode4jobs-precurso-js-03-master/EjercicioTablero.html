@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio tablero</title>
+</head>
+
+<body>
+    <script>
+
+/*
+        let numero = parseInt(prompt("Introduzca un número."));
+
+        let tablero = " ";
+
+        for(let i = 1; i <= numero; i = i + 1) {
+            
+           // for(let i = 1; i <=numero; i = i + 1)  {
+            
+                if (i % 2 == 0)
+                {
+                   resultado = "X " }
+               
+           
+                if (i % 2 !=0)
+       
+            { resultado = "O " }
+        
+            tablero = resultado + " ";
+
+        console.log (tablero);
+    
+                }
+        
+
+       
+
+                let resultado = "";
+                let resultado2 = "";
+                let numero = parseInt(prompt("Introduzca un número"));
+
+            for (let i = 1; i <= numero; i = i + 1) {
+            
+            if (i % 2 == 0) 
+            {
+               resultado = resultado + "X " + "O ";
+            }
+
+            else {
+                resultado2 = resultado2 + "O " + "X ";
+            }
+
+        }
+        
+        console.log(resultado);
+        console.log(resultado2);
+
+
+
+
+let numero = prompt("Introduzca un valor")
+        let tablero
+            for (let altura = 1; altura <= numero; altura = altura + 1) {
+                
+                if (altura % 2 == 0) {
+
+                    for (let anchura = 1; anchura <= numero; anchura = anchura + 1)
+                        
+                        tablero = "X O ";
+                }
+                else {
+                    
+                    for (let anchura = 1; anchura <= numero; anchura = anchura + 1)
+
+                        tablero = "O X ";
+                    
+                    }
+
+                    tablero = tablero + " "
+                                        
+                    console.log(tablero);
+
+                }
+
+
+        */
+
+
+
+
+
+        let numero = parseInt(prompt("Introduza un número"));
+        let tablero = "";
+                
+    for (let altura = 1; altura <= numero; altura = altura + 1){
+
+       
+            if (altura % 2 == 0){
+
+            for (let anchura = 1; anchura <= numero; anchura = anchura + 1){
+
+
+                if (anchura % 2 != 0)
+                {
+                tablero = tablero + "O"
+                }
+
+                else {
+
+                tablero = tablero + "X"
+                }
+            
+            tablero = tablero + " ";
+            
+            
+            }
+        }
+            
+            
+            else {    
+               
+            for (let anchura = 1; anchura <= numero; anchura = anchura + 1){
+
+
+                if (anchura % 2 == 0)
+                {
+                tablero = tablero + "O"
+                }
+
+                else {
+
+                tablero = tablero + "X"
+                }
+            
+            tablero = tablero + " ";
+
+            }
+            
+        }
+
+        
+   } 
+        
+            console.log(tablero);
+
+
+       
+
+</script>
+</body>
+
+</html>
